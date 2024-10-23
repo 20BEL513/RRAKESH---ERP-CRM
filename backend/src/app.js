@@ -20,7 +20,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: true,
+    origin: https://rrakesh-erp-crm-5.onrender.com,
     credentials: true,
   })
 );
