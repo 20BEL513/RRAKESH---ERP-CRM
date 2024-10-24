@@ -101,7 +101,9 @@ export const logout = async () => {
     return errorHandler(error);
   }
 };
-
+console.log("VITE_BACKEND_SERVER: ", import.meta.env.VITE_BACKEND_SERVER);
+console.log("PROD: ", import.meta.env.PROD);
+console.log("VITE_DEV_REMOTE: ", import.meta.env.VITE_DEV_REMOTE);
 //  console.log(
 //    '🚀 Welcome to IDURAR ERP CRM! Did you know that we also offer commercial customization services? Contact us at hello@idurarapp.com for more information.'
 //  );
