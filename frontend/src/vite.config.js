@@ -9,7 +9,7 @@ export default ({ mode }) => {
   const proxy_url =
     process.env.VITE_DEV_REMOTE === 'remote'
       ? process.env.VITE_BACKEND_SERVER
-      : 'https://rrakesh-erp-crm-3.onrender.com';
+      : 'https://rrakesh-erp-crm-3.onrender.com/';
 
   const config = {
     plugins: [react()],
